@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+
+:root {
+   --mainColor: #1f1f1d;
+   --main-buttonColor: #ff8906;
+   --main-color: #fffffe;
+   --paragraph-color: #a7a9be;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: Cairo sans-serif;
+}
+
+body {
+   background-color: #191919;
+   color: black; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+}
+
+.inputs {
+   background-color: #ffe793;
+   padding: 10px;
+   box-shadow: -1px 1px 14px 0px #191919, inset 1px 0px 7px 0px #19191b;
+   border-radius: 10px;
+   width: 350px;
+   display: flex;
+   gap: 10px;
+   color: black;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+h2 {
+   font-size: 32px;
+   text-align: center;
+   ;
+}
+
+.data {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 80%;
+   gap: 5px;
+   ;
+}
+
+.data input {
+   outline: none;
+   padding: 5px;
+   border: 1px solid var(--mainColor);
+   width: 100%;
+}
+
+.data button {
+   background-color: #202124;
+   border: none;
+   color: #ffe793;
+   cursor: pointer;
+   padding: 5px;
+   width: 100%;
+   border-radius: 3px;
+   transition: .4s all linear;
+   margin: 10px auto;
+}
+
+
+
+.list {
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   align-items: flex-start;
+   font-size: 25px;
+   font-weight: bold;
+   margin: 10px auto;
+   flex-wrap: wrap;
+   gap: 10px; 
+}
+
+.box{
+   background-color: white; 
+   border-radius: 10px ; padding: 10px ; width: 200px ;
+}
+.item{
+   background-color: #ff8906;
+   padding: 10px ; margin: 4px ; cursor: pointer; color: black;
+   border: #191919 solid .0625rem;
+}
