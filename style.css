@@ -96,4 +96,5 @@ h2 {
    background-color: #ff8906;
    padding: 10px ; margin: 4px ; cursor: pointer; color: black;
    border: #191919 solid .0625rem;
+overflow-wrap: break-word;
 }
